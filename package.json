@@ -28,6 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
+    "co": "^4.6.0",
     "conventional-changelog": "^0.5.3",
     "eslint": "^2.9.0",
     "istanbul": "^0.4.3",
