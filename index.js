@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = {
-  sanitize: require('./sanitize')
+  sanitize: require('./lib/sanitize'),
+  validate: require('./lib/validate')
 };
