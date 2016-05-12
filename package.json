@@ -1,6 +1,6 @@
 {
   "name": "koa-body-inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "KOA middleware for sanitizing/validating request bodies",
   "main": "index.js",
   "scripts": {
