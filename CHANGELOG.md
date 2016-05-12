@@ -1,3 +1,14 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/danwkennedy/koa-body-inspector/compare/1.0.1...v1.1.0) (2016-05-12)
+
+
+### Features
+
+* **sanitize:** allow users to strict sanitize the request body ([832731e](https://github.com/danwkennedy/koa-body-inspector/commit/832731e))
+* **validate:** allow users to strictly validate the request body ([eebca23](https://github.com/danwkennedy/koa-body-inspector/commit/eebca23))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/danwkennedy/koa-body-inspector/compare/1.0.0...v1.0.1) (2016-05-12)
 
