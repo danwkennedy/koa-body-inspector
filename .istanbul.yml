@@ -1,0 +1,7 @@
+instrumentation:
+  excludes: [ '**/*.spec.js' ]
+reporting:
+  reports:
+    - lcov
+    - clover
+  dir: ./build/coverage

@@ -1,0 +1,40 @@
+{
+  "name": "koa-body-inspector",
+  "version": "1.0.0",
+  "description": "KOA middleware for sanitizing/validating request bodies",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./lib",
+    "style-check": "eslint .",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w",
+    "coverage": "NODE_ENV=test istanbul cover --config ./.istanbul.yml  _mocha -- ./lib --opts ./mocha.opts --reporter xunit --reporter-options output=build/xunit.xml"
+  },
+  "keywords": [
+    "KOA",
+    "request",
+    "body",
+    "inspector",
+    "sanitize",
+    "validate"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "Daniel Kennedy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danwkennedy/koa-body-inspector"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "conventional-changelog": "^0.5.3",
+    "eslint": "^2.9.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "schema-inspector": "^1.6.4"
+  }
+}
