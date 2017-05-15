@@ -47,3 +47,13 @@
 
 
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/danwkennedy/koa-body-inspector/compare/2.0.0...v2.0.1) (2017-05-15)
+
+
+### Features
+
+* **changelog:** switch to the new conventional changelog ([2e41f54](https://github.com/danwkennedy/koa-body-inspector/commit/2e41f54))
+
+
+
