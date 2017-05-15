@@ -4,10 +4,10 @@
   "description": "KOA middleware for sanitizing/validating request bodies",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha ./lib",
+    "test": "NODE_ENV=test jest ./lib",
     "style-check": "eslint .",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w",
-    "coverage": "NODE_ENV=test istanbul cover --config ./.istanbul.yml  _mocha -- ./lib --opts ./mocha.opts --reporter xunit --reporter-options output=build/xunit.xml"
+    "coverage": "NODE_ENV=test jest --config=jest.coverage.config.json ./lib"
   },
   "keywords": [
     "KOA",
@@ -18,7 +18,7 @@
     "validate"
   ],
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=7.6.0"
   },
   "author": "Daniel Kennedy",
   "repository": {
@@ -30,12 +30,14 @@
     "chai": "^3.4.1",
     "co": "^4.6.0",
     "conventional-changelog": "^0.5.3",
-    "eslint": "^2.9.0",
+    "eslint": "^3.17.0",
     "istanbul": "^0.4.3",
-    "mocha": "^2.3.4",
+    "jest": "^20.0.1",
+    "mocha": "^3.2.0",
     "sinon": "^1.17.4"
   },
   "dependencies": {
+    "bluebird": "^3.5.0",
     "schema-inspector": "^1.6.4"
   }
 }
